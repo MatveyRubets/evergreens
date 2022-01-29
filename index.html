@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Добриво | Веб-сайт</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="top-sec">
+        <h1>добриво</h1>
+        <ul>
+          <li><a href="#">оплата и доставка</a></li>
+          <li><a href="#">новости</a></li>
+          <li><a href="#">справочник</a></li>
+          <li><a href="#">сертификаты</a></li>
+        </ul>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">нагро-удобрение</a></li>
+          <li><a href="#">биодизель</a></li>
+          <li><a href="#">силко</a></li>
+          <li><a href="#">интернет-магазин</a></li>
+          <li><a href="#">вопросы-ответы</a></li>
+          <li><a href="#">контакты</a></li>
+          <li class="last"><a href="#">корзина</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="org-header">органическое нано-удобние добриво</h1>
+    </header>
+  </div>
+
+  <main>
+    <section class="benefits">
+      <img src="img/dobrivo.png" width="190" height="345" alt="Фотография бутылки добрива">
+      <ul class="benefits__list">
+        <li class="benefits-item">
+          <h3 class="benefits--h">прирост урожая</h3>
+          <p>в сравнении с химическим удобрением</p>
+          <h3 class="benefits--growth">30%-250%</h3>
+        </li>
+        <li class="benefits-item">
+          <h3 class="benefits--h">экономия</h3>
+          <p>химических удобрений в хозяйстве</p>
+          <h3 class="benefits--growth">до 70%</h3>
+        </li>
+        <li class="benefits-item">
+          <h3 class="benefits--h">рост корневой </h3>
+          <p>системы растений при использовании</p>
+          <h3 class="benefits--growth">в 3-10 раз</h3>
+        </li>
+      </ul>
+    </section>
+
+    <aside>
+      <section class="profit">
+        <div class="center">
+          <h2 class="profit-header">посчитайте прибыль</h2>
+          <p class="profit-p"><strong>добриво </strong>эффективнее химии</p>
+        </div>
+        <ul class="profit-list">
+          <li class="profit-item">
+            <label for="inputProductPrice" class="form-label">выберите культуру грн/т</label>
+            <input class="form-control" id="wheat" type="number" oninput="myFunction()">
+          </li>
+          <li class="profit-item">
+            <label for="inputProductPrice" class="form-label">Урожайность, ц/га</label>
+            <input class="form-control" id="goodEarth" type="number" oninput="myFunction()">
+          </li>
+          <li class="profit-item">
+            <label for="inputProductPrice" class="form-label">Стоимость хим. удобрения, грн/га</label>
+            <input class="form-control" id="cost" type="number" oninput="myFunction()">
+          </li>
+          <li class="profit-item">
+            <label for="inputProductPrice" class="form-label">Посевная площадь, га</label>
+            <input class="form-control" id="square" type="number" oninput="myFunction()">
+          </li>
+        </ul>
+        <div class="center profit-res">
+          <h4>прибыль от добрива</h4>
+          <h1 id="totalPrice"></h1>
+          <p>грн</p>
+        </div>
+      </section>
+    </aside>
+  </main>
+  <div class="learn-more">
+    <h1>узнайте о нагро больше!</h1>
+    <button><a href="#">УЗНАТЬ БОЛЬШЕ</a></button>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

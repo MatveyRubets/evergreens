@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.container {
+  background-image: url(../img/combiners.png);
+}
+
+header {
+  padding: 50px 200px;
+}
+
+header h1 {
+  color: white;
+}
+
+.top-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.top-sec ul {
+  display: flex;
+}
+
+.top-sec li:not(:last-child) {
+  margin-right: 25px;
+}
+
+.top-sec a {
+  color: rgb(230, 230, 230);
+}
+
+nav {
+  margin-bottom: 35px;
+}
+
+nav ul{
+  display: flex;
+  background: rgb(244, 244, 244);
+  justify-content: space-between;
+}
+
+nav ul li {
+  padding: 15px 20px;
+}
+
+nav ul li:last-child {
+  background: rgb(45, 176, 27);
+}
+
+nav ul li a{
+  color: rgb(84, 84, 76);
+}
+
+.last a{
+  color: white;
+}
+
+.org-header {
+  width: 500px;
+  text-align: end;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits {
+  padding: 0 200px;
+  display: flex;
+  position: relative;
+}
+
+.benefits img {
+  margin-right: 40px;
+  position: absolute;
+  top: -50px;
+}
+
+.benefits__list {
+  margin-left: 250px;
+  display: flex;
+  height: 275px;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.benefits--h {
+  font-size: 25px;
+}
+
+.benefits-item p {
+  font-size: 10px;
+  color: rgb(211, 211, 211);
+}
+
+.benefits--growth {
+  font-size: 24px;
+  color: goldenrod;
+}
+
+aside {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  background-image: url(../img/wheat.png);
+  background-repeat: no-repeat;
+}
+
+.profit {
+  background-image: url(../img/wheat.png);
+  background: rgb(213, 213, 213);
+  padding: 20px 30px;
+  position: absolute;
+  width: 300px;
+  top: -100px;
+  right: 28%;
+}
+
+.profit-header{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.profit-p {
+  margin-bottom: 40px;
+  font-size: 13px;
+}
+
+.center {
+  text-align: center;
+}
+
+.profit-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.profit-item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.profit-item input {
+  width: 100%;
+  padding: 3px 5px;
+  color: rgb(165, 165, 165);
+}
+
+.profit-list {
+  margin-bottom: 30px;
+}
+
+.profit-res h4,
+.profit-res h1,
+.profit-res p {
+  color: rgb(189, 85, 41);
+}
+
+.learn-more {
+  padding-left: 450px;
+  width: 50%;
+}
+
+.learn-more button{
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: 3px solid black;
+}
+
+.learn-more button a {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
